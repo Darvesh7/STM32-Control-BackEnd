@@ -238,4 +238,4 @@ BUILD\NUCLEO_F446RE\ARMC6\motor.o: motor.cpp \
   mbed-os\platform\ScopedRamExecutionLock.h \
   mbed-os\platform\mbed_stats.h mbed-os\platform\Callback.h \
   mbed-os\platform\FunctionPointer.h mbed-os\platform\ScopedLock.h \
-  motor.h
+  motor.h QEI\QEI.h

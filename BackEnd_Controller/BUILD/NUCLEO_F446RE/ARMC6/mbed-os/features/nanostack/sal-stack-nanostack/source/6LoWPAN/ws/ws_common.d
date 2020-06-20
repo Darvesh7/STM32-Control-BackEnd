@@ -23,8 +23,6 @@ BUILD\NUCLEO_F446RE\ARMC6\mbed-os\features\nanostack\sal-stack-nanostack\source\
   mbed-os\features\frameworks\mbed-client-randlib\mbed-client-randlib\randLIB.h \
   mbed-os\features\frameworks\nanostack-libservice\mbed-client-libservice\ns_list.h \
   mbed-os\features\frameworks\nanostack-libservice\mbed-client-libservice\nsdynmemLIB.h \
-  mbed-os\features\nanostack\sal-stack-nanostack\source\Common_Protocols\icmpv6.h \
-  mbed-os\features\nanostack\sal-stack-nanostack\source\Common_Protocols\icmpv6_prefix.h \
   mbed-os\features\nanostack\sal-stack-nanostack\source\6LoWPAN\ws\ws_config.h \
   mbed-os\features\nanostack\sal-stack-nanostack\source\6LoWPAN\ws\ws_common_defines.h \
   mbed-os\features\nanostack\sal-stack-nanostack\source\6LoWPAN\ws\ws_common.h \
@@ -57,7 +55,6 @@ BUILD\NUCLEO_F446RE\ARMC6\mbed-os\features\nanostack\sal-stack-nanostack\source\
   mbed-os\features\nanostack\sal-stack-nanostack\source\6LoWPAN\ws\ws_bootstrap.h \
   mbed-os\features\nanostack\sal-stack-nanostack\source\6LoWPAN\ws\ws_bbr_api_internal.h \
   mbed-os\features\nanostack\sal-stack-nanostack\source\6LoWPAN\ws\ws_pae_controller.h \
-  mbed-os\features\nanostack\sal-stack-nanostack\source\6LoWPAN\ws\ws_cfg_settings.h \
   mbed-os\features\nanostack\sal-stack-nanostack\source\Service_Libs\etx\etx.h \
   mbed-os\features\nanostack\sal-stack-nanostack\source\Service_Libs\blacklist\blacklist.h \
   mbed-os\features\nanostack\sal-stack-nanostack\source\RPL\rpl_protocol.h \

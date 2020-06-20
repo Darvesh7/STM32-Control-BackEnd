@@ -7,16 +7,10 @@ BUILD\NUCLEO_F446RE\ARMC6\mbed-os\drivers\source\usb\USBMIDI.o: \
   mbed-os\drivers\internal\USBDevice_Types.h mbed-os\hal\usb\USBPhy.h \
   mbed-os\hal\usb\USBPhyTypes.h mbed-os\hal\usb\USBPhyEvents.h \
   mbed-os\platform\mbed_critical.h mbed-os\platform\Callback.h \
-  mbed-os\platform\cxxsupport\mstd_cstddef \
-  mbed-os\platform\cxxsupport\mstd_new mbed-os\platform\mbed_assert.h \
-  mbed-os\platform\mbed_toolchain.h mbed-os\platform\mbed_preprocessor.h \
-  mbed-os\platform\cxxsupport\mstd_type_traits \
-  mbed-os\platform\cxxsupport\mstd_functional \
-  mbed-os\platform\cxxsupport\mstd_memory \
-  mbed-os\platform\cxxsupport\mstd_utility \
-  mbed-os\platform\cxxsupport\mstd_iterator \
+  mbed-os\platform\mbed_assert.h mbed-os\platform\mbed_toolchain.h \
+  mbed-os\platform\mbed_preprocessor.h \
   mbed-os\drivers\internal\MIDIMessage.h mbed-os\rtos\EventFlags.h \
-  mbed-os\rtos\Kernel.h mbed-os\rtos\mbed_rtos_types.h \
+  mbed-os\rtos\mbed_rtos_types.h \
   mbed-os\rtos\source\TARGET_CORTEX\rtx5\Include\cmsis_os2.h \
   mbed-os\rtos\mbed_rtos1_types.h \
   mbed-os\rtos\source\TARGET_CORTEX\rtx4\cmsis_os.h \

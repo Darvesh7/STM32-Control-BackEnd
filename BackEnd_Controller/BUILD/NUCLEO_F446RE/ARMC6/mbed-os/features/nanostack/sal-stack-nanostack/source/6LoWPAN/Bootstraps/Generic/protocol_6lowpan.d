@@ -85,7 +85,7 @@ BUILD\NUCLEO_F446RE\ARMC6\mbed-os\features\nanostack\sal-stack-nanostack\source\
   mbed-os\features\nanostack\sal-stack-nanostack\source\Security\TLS\tls_lib.h \
   mbed-os\features\nanostack\sal-stack-nanostack\source\Security\Common\sec_lib_definitions.h \
   mbed-os\features\nanostack\sal-stack-nanostack\nanostack\ns_sha256.h \
-  mbed-os\features\mbedtls\inc\mbedtls\sha256.h \
+  mbed-os\features\mbedtls\mbed-crypto\inc\mbedtls\sha256.h \
   mbed-os\features\mbedtls\inc\mbedtls\config.h \
   mbed-os\features\mbedtls\platform\inc\platform_mbed.h \
   mbed-os\features\mbedtls\inc\mbedtls\config-no-entropy.h \
@@ -107,15 +107,4 @@ BUILD\NUCLEO_F446RE\ARMC6\mbed-os\features\nanostack\sal-stack-nanostack\source\
   mbed-os\features\nanostack\sal-stack-nanostack\source\6LoWPAN\lowpan_adaptation_interface.h \
   mbed-os\features\nanostack\sal-stack-nanostack\source\6LoWPAN\Fragmentation\cipv6_fragmenter.h \
   mbed-os\features\nanostack\sal-stack-nanostack\source\Service_Libs\etx\etx.h \
-  mbed-os\features\nanostack\sal-stack-nanostack\source\6LoWPAN\ws\ws_common.h \
-  mbed-os\features\nanostack\sal-stack-nanostack\nanostack\fhss_api.h \
-  mbed-os\features\nanostack\sal-stack-nanostack\nanostack\fhss_config.h \
-  mbed-os\features\nanostack\sal-stack-nanostack\nanostack\fhss_ws_extension.h \
-  mbed-os\features\nanostack\sal-stack-nanostack\nanostack\fhss_api.h \
-  mbed-os\features\nanostack\sal-stack-nanostack\nanostack\net_fhss.h \
-  mbed-os\features\nanostack\sal-stack-nanostack\source\6LoWPAN\ws\ws_config.h \
-  mbed-os\features\nanostack\sal-stack-nanostack\source\6LoWPAN\ws\ws_common_defines.h \
-  mbed-os\features\nanostack\sal-stack-nanostack\source\6LoWPAN\ws\ws_neighbor_class.h \
-  mbed-os\features\nanostack\sal-stack-nanostack\nanostack\fhss_ws_extension.h \
-  mbed-os\features\nanostack\sal-stack-nanostack\source\6LoWPAN\ws\ws_bootstrap.h \
-  mbed-os\features\nanostack\sal-stack-nanostack\source\6LoWPAN\ws\ws_cfg_settings.h
+  mbed-os\features\nanostack\sal-stack-nanostack\source\6LoWPAN\ws\ws_bootstrap.h

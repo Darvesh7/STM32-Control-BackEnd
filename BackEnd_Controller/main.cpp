@@ -1,14 +1,37 @@
 #include "mbed.h"
- 
-DigitalOut myled(LED2);
- 
-int main() {
-    while(1) {
-        myled = 1;
-        ThisThread::sleep_for(2000);
-        myled = 0;
-        ThisThread::sleep_for(2000);
-        
+#include "motor.h"
+
+
+
+Motor motor(PB_5,PB_4,PB_3,PA_10,PA_4);
+
+int main()
+{
+
+
+    motor.forward();
+    wait_ms(2000);
+    motor.brakeForward();
+    wait_ms(2000);
+    motor.stop();
+    wait_ms(2000);
+    motor.backward();
+    wait_ms(2000);
+    motor.brakeBackward();
+    wait_ms(5000);
+
+
+    while(1)
+    {
+    
     }
+
+
 }
- 
+
+
+
+
+
+
+

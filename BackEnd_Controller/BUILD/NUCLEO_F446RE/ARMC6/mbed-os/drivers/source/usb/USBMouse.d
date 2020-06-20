@@ -6,14 +6,8 @@ BUILD\NUCLEO_F446RE\ARMC6\mbed-os\drivers\source\usb\USBMouse.o: \
   mbed-os\drivers\internal\USBDevice_Types.h mbed-os\hal\usb\USBPhy.h \
   mbed-os\hal\usb\USBPhyTypes.h mbed-os\hal\usb\USBPhyEvents.h \
   mbed-os\platform\mbed_critical.h mbed-os\platform\Callback.h \
-  mbed-os\platform\cxxsupport\mstd_cstddef \
-  mbed-os\platform\cxxsupport\mstd_new mbed-os\platform\mbed_assert.h \
-  mbed-os\platform\mbed_toolchain.h mbed-os\platform\mbed_preprocessor.h \
-  mbed-os\platform\cxxsupport\mstd_type_traits \
-  mbed-os\platform\cxxsupport\mstd_functional \
-  mbed-os\platform\cxxsupport\mstd_memory \
-  mbed-os\platform\cxxsupport\mstd_utility \
-  mbed-os\platform\cxxsupport\mstd_iterator \
+  mbed-os\platform\mbed_assert.h mbed-os\platform\mbed_toolchain.h \
+  mbed-os\platform\mbed_preprocessor.h \
   mbed-os\drivers\internal\USBHID_Types.h \
   mbed-os\drivers\internal\OperationList.h \
   mbed-os\drivers\internal\OperationListBase.h \
@@ -28,8 +22,8 @@ BUILD\NUCLEO_F446RE\ARMC6\mbed-os\drivers\source\usb\USBMouse.o: \
   mbed-os\rtos\mbed_rtos_storage.h \
   mbed-os\rtos\source\TARGET_CORTEX\mbed_rtx_storage.h \
   mbed-os\rtos\source\TARGET_CORTEX\mbed_rtx_conf.h \
-  mbed-os\targets\TARGET_STM\mbed_rtx.h mbed-os\rtos\Kernel.h \
-  mbed-os\platform\NonCopyable.h mbed-os\platform\ScopedLock.h \
-  mbed-os\rtos\Semaphore.h mbed-os\platform\PlatformMutex.h \
-  mbed-os\rtos\Mutex.h mbed-os\rtos\ThisThread.h \
-  mbed-os\hal\usb\usb_phy_api.h mbed-os\hal\usb\USBPhy.h
+  mbed-os\targets\TARGET_STM\mbed_rtx.h mbed-os\platform\NonCopyable.h \
+  mbed-os\platform\ScopedLock.h mbed-os\rtos\Semaphore.h \
+  mbed-os\platform\PlatformMutex.h mbed-os\rtos\Mutex.h \
+  mbed-os\rtos\ThisThread.h mbed-os\hal\usb\usb_phy_api.h \
+  mbed-os\hal\usb\USBPhy.h

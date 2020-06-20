@@ -77,6 +77,5 @@ BUILD\NUCLEO_F446RE\ARMC6\mbed-os\features\nanostack\sal-stack-nanostack\source\
   mbed-os\features\nanostack\sal-stack-nanostack\source\Common_Protocols\icmpv6.h \
   mbed-os\features\nanostack\sal-stack-nanostack\source\Common_Protocols\icmpv6_prefix.h \
   mbed-os\features\nanostack\sal-stack-nanostack\source\Common_Protocols\icmpv6_radv.h \
-  mbed-os\features\nanostack\sal-stack-nanostack\source\6LoWPAN\lowpan_adaptation_interface.h \
   mbed-os\features\nanostack\sal-stack-nanostack\source\6LoWPAN\MAC\mac_helper.h \
   mbed-os\features\nanostack\sal-stack-nanostack\nanostack\mlme.h

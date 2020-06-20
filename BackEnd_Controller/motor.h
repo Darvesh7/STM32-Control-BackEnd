@@ -16,27 +16,35 @@ class Motor
     // User-defined pin selection.
     Motor(PinName INA, 
     PinName INB,
-    PwmOut PWM,
+    PinName PWM,
     PinName SEL0, 
-    AnalogIn CS);
+    PinName CS);
 
     void init(void);
 
     void forward(void);
     void backward(void);
     void stop(void);
-    void brake(void);
+    void brakeForward(void);
+    void brakeBackward(void);
 
     void setMotorSpeed(void);
-    void setMotorSpeedBrake(void);
+    void setMotorSpeedBrakeForward(void);
+    void setMotorSpeedBrakeBackward(void);
     void setMotorSpeed(int);
     void getMotorSpeed(void);
     
     int getCurrent(void);
 
-    float pwm_value = 0.0;
-    double RPM = 0.0;
-    float pwm_i = 0.0;
+    void getRPM(void);
+
+    float pwm_value; 
+    float pwm_value_brake;
+    float pwm_i; //pwm increment
+    float pwm_d; //pwm decrement
+
+    uint8_t CurrentRpmCount;
+    uint8_t LastRpmCount;
 
     motorState_t _MState;
 
@@ -46,9 +54,9 @@ class Motor
 
     PinName _INA;
     PinName _INB;
-    PwmOut _PWM;
+    PinName _PWM;
     PinName _SEL0;
-    AnalogIn _CS;
+    PinName _CS;
 
     DigitalOut* _motorINA;
     DigitalOut* _motorINB;

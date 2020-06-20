@@ -57,7 +57,6 @@ BUILD\NUCLEO_F446RE\ARMC6\mbed-os\features\nanostack\sal-stack-nanostack\source\
   mbed-os\features\nanostack\sal-stack-nanostack\nanostack\fhss_ws_extension.h \
   mbed-os\features\nanostack\sal-stack-nanostack\nanostack\fhss_api.h \
   mbed-os\features\nanostack\sal-stack-nanostack\nanostack\net_fhss.h \
-  mbed-os\features\nanostack\sal-stack-nanostack\source\6LoWPAN\ws\ws_config.h \
   mbed-os\features\nanostack\sal-stack-nanostack\source\6LoWPAN\ws\ws_neighbor_class.h \
   mbed-os\features\nanostack\sal-stack-nanostack\nanostack\fhss_ws_extension.h \
   mbed-os\features\nanostack\sal-stack-nanostack\source\6LoWPAN\ws\ws_bootstrap.h \

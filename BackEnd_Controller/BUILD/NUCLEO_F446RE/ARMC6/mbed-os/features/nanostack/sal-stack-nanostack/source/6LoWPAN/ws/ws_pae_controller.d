@@ -26,9 +26,6 @@ BUILD\NUCLEO_F446RE\ARMC6\mbed-os\features\nanostack\sal-stack-nanostack\source\
   mbed-os\features\nanostack\sal-stack-nanostack\nanostack\fhss_ws_extension.h \
   mbed-os\features\nanostack\sal-stack-nanostack\nanostack\fhss_api.h \
   mbed-os\features\nanostack\sal-stack-nanostack\nanostack\ns_address.h \
-  mbed-os\features\nanostack\sal-stack-nanostack\nanostack\ws_management_api.h \
-  mbed-os\features\nanostack\sal-stack-nanostack\nanostack\net_interface.h \
-  mbed-os\features\nanostack\sal-stack-nanostack\nanostack\platform\arm_hal_phy.h \
   mbed-os\features\nanostack\sal-stack-nanostack\source\NWK_INTERFACE\Include\protocol.h \
   mbed-os\features\nanostack\sal-stack-nanostack\source\NWK_INTERFACE\Include\protocol_abstract.h \
   mbed-os\features\nanostack\sal-stack-nanostack\source\Core\include\ns_address_internal.h \
@@ -37,6 +34,8 @@ BUILD\NUCLEO_F446RE\ARMC6\mbed-os\features\nanostack\sal-stack-nanostack\source\
   mbed-os\features\nanostack\sal-stack-nanostack\source\6LoWPAN\IPHC_Decode\lowpan_context.h \
   mbed-os\features\nanostack\sal-stack-nanostack\nanostack\platform\arm_hal_phy.h \
   mbed-os\features\nanostack\sal-stack-nanostack\nanostack\net_nwk_scan.h \
+  mbed-os\features\nanostack\sal-stack-nanostack\nanostack\net_interface.h \
+  mbed-os\features\nanostack\sal-stack-nanostack\nanostack\platform\arm_hal_phy.h \
   mbed-os\features\nanostack\sal-stack-nanostack\nanostack\mlme.h \
   mbed-os\features\nanostack\sal-stack-nanostack\nanostack\mac_common_defines.h \
   mbed-os\features\nanostack\sal-stack-nanostack\nanostack\net_interface.h \
@@ -47,9 +46,7 @@ BUILD\NUCLEO_F446RE\ARMC6\mbed-os\features\nanostack\sal-stack-nanostack\source\
   mbed-os\features\nanostack\sal-stack-nanostack\source\Service_Libs\mac_neighbor_table\mac_neighbor_table.h \
   mbed-os\features\nanostack\sal-stack-nanostack\nanostack\net_polling_api.h \
   mbed-os\features\nanostack\sal-stack-nanostack\source\6LoWPAN\ws\ws_config.h \
-  mbed-os\features\nanostack\sal-stack-nanostack\source\6LoWPAN\ws\ws_cfg_settings.h \
   mbed-os\features\nanostack\sal-stack-nanostack\source\6LoWPAN\ws\ws_pae_controller.h \
-  mbed-os\features\nanostack\sal-stack-nanostack\source\Security\protocols\sec_prot_cfg.h \
   mbed-os\features\nanostack\sal-stack-nanostack\source\Security\protocols\sec_prot_certs.h \
   mbed-os\features\nanostack\sal-stack-nanostack\source\Security\protocols\sec_prot_keys.h \
   mbed-os\features\nanostack\sal-stack-nanostack\source\6LoWPAN\ws\ws_pae_timers.h \
@@ -57,7 +54,7 @@ BUILD\NUCLEO_F446RE\ARMC6\mbed-os\features\nanostack\sal-stack-nanostack\source\
   mbed-os\features\nanostack\sal-stack-nanostack\source\6LoWPAN\ws\ws_pae_auth.h \
   mbed-os\features\nanostack\sal-stack-nanostack\source\6LoWPAN\ws\ws_pae_nvm_store.h \
   mbed-os\features\nanostack\sal-stack-nanostack\source\6LoWPAN\ws\ws_pae_nvm_data.h \
-  mbed-os\features\mbedtls\inc\mbedtls\sha256.h \
+  mbed-os\features\mbedtls\mbed-crypto\inc\mbedtls\sha256.h \
   mbed-os\features\mbedtls\inc\mbedtls\config.h \
   mbed-os\features\mbedtls\platform\inc\platform_mbed.h \
   mbed-os\features\mbedtls\inc\mbedtls\config-no-entropy.h \

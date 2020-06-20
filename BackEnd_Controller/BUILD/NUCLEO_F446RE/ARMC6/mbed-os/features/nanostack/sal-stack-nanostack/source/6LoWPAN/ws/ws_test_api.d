@@ -21,12 +21,6 @@ BUILD\NUCLEO_F446RE\ARMC6\mbed-os\features\nanostack\sal-stack-nanostack\source\
   mbed-os\features\frameworks\nanostack-libservice\mbed-client-libservice\ns_types.h \
   mbed-os\features\frameworks\nanostack-libservice\mbed-client-libservice\nsdynmemLIB.h \
   mbed-os\features\nanostack\sal-stack-nanostack\nanostack\net_ws_test.h \
-  mbed-os\features\nanostack\sal-stack-nanostack\nanostack\fhss_config.h \
-  mbed-os\features\nanostack\sal-stack-nanostack\nanostack\fhss_ws_extension.h \
-  mbed-os\features\nanostack\sal-stack-nanostack\nanostack\fhss_api.h \
-  mbed-os\features\nanostack\sal-stack-nanostack\nanostack\ws_management_api.h \
-  mbed-os\features\nanostack\sal-stack-nanostack\nanostack\net_interface.h \
-  mbed-os\features\nanostack\sal-stack-nanostack\nanostack\platform\arm_hal_phy.h \
   mbed-os\features\nanostack\sal-stack-nanostack\source\NWK_INTERFACE\Include\protocol.h \
   mbed-os\features\nanostack\sal-stack-nanostack\source\NWK_INTERFACE\Include\protocol_abstract.h \
   mbed-os\features\nanostack\sal-stack-nanostack\source\Core\include\ns_address_internal.h \
@@ -35,6 +29,8 @@ BUILD\NUCLEO_F446RE\ARMC6\mbed-os\features\nanostack\sal-stack-nanostack\source\
   mbed-os\features\nanostack\sal-stack-nanostack\source\6LoWPAN\IPHC_Decode\lowpan_context.h \
   mbed-os\features\nanostack\sal-stack-nanostack\nanostack\platform\arm_hal_phy.h \
   mbed-os\features\nanostack\sal-stack-nanostack\nanostack\net_nwk_scan.h \
+  mbed-os\features\nanostack\sal-stack-nanostack\nanostack\net_interface.h \
+  mbed-os\features\nanostack\sal-stack-nanostack\nanostack\platform\arm_hal_phy.h \
   mbed-os\features\nanostack\sal-stack-nanostack\nanostack\mlme.h \
   mbed-os\features\nanostack\sal-stack-nanostack\nanostack\mac_common_defines.h \
   mbed-os\features\nanostack\sal-stack-nanostack\nanostack\net_interface.h \
@@ -47,13 +43,15 @@ BUILD\NUCLEO_F446RE\ARMC6\mbed-os\features\nanostack\sal-stack-nanostack\source\
   mbed-os\features\nanostack\sal-stack-nanostack\source\6LoWPAN\ws\ws_config.h \
   mbed-os\features\nanostack\sal-stack-nanostack\source\6LoWPAN\ws\ws_common.h \
   mbed-os\features\nanostack\sal-stack-nanostack\nanostack\fhss_api.h \
+  mbed-os\features\nanostack\sal-stack-nanostack\nanostack\fhss_config.h \
+  mbed-os\features\nanostack\sal-stack-nanostack\nanostack\fhss_ws_extension.h \
+  mbed-os\features\nanostack\sal-stack-nanostack\nanostack\fhss_api.h \
   mbed-os\features\nanostack\sal-stack-nanostack\nanostack\net_fhss.h \
   mbed-os\features\nanostack\sal-stack-nanostack\source\6LoWPAN\ws\ws_common_defines.h \
   mbed-os\features\nanostack\sal-stack-nanostack\source\6LoWPAN\ws\ws_neighbor_class.h \
   mbed-os\features\nanostack\sal-stack-nanostack\nanostack\fhss_ws_extension.h \
   mbed-os\features\nanostack\sal-stack-nanostack\source\6LoWPAN\ws\ws_bbr_api_internal.h \
   mbed-os\features\nanostack\sal-stack-nanostack\source\6LoWPAN\ws\ws_pae_controller.h \
-  mbed-os\features\nanostack\sal-stack-nanostack\source\6LoWPAN\ws\ws_cfg_settings.h \
   mbed-os\features\frameworks\mbed-client-randlib\mbed-client-randlib\randLIB.h \
   mbed-os\features\frameworks\nanostack-libservice\mbed-client-libservice\ns_trace.h \
   mbed-os\features\frameworks\mbed-trace\mbed-trace\mbed_trace.h \

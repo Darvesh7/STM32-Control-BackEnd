@@ -21,7 +21,7 @@ BUILD\NUCLEO_F446RE\ARMC6\mbed-os\features\nanostack\sal-stack-nanostack\source\
   mbed-os\features\frameworks\nanostack-libservice\mbed-client-libservice\ns_types.h \
   mbed-os\features\frameworks\nanostack-libservice\mbed-client-libservice\ns_trace.h \
   mbed-os\features\frameworks\mbed-trace\mbed-trace\mbed_trace.h \
-  mbed-os\features\mbedtls\inc\mbedtls\md.h \
+  mbed-os\features\mbedtls\mbed-crypto\inc\mbedtls\md.h \
   mbed-os\features\mbedtls\inc\mbedtls\config.h \
   mbed-os\features\mbedtls\platform\inc\platform_mbed.h \
   mbed-os\features\mbedtls\inc\mbedtls\config-no-entropy.h \

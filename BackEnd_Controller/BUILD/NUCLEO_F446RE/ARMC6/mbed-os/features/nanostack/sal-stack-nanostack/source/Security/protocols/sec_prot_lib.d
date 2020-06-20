@@ -46,7 +46,6 @@ BUILD\NUCLEO_F446RE\ARMC6\mbed-os\features\nanostack\sal-stack-nanostack\source\
   mbed-os\features\nanostack\sal-stack-nanostack\source\Service_Libs\mac_neighbor_table\mac_neighbor_table.h \
   mbed-os\features\nanostack\sal-stack-nanostack\nanostack\net_polling_api.h \
   mbed-os\features\nanostack\sal-stack-nanostack\source\6LoWPAN\ws\ws_config.h \
-  mbed-os\features\nanostack\sal-stack-nanostack\source\Security\protocols\sec_prot_cfg.h \
   mbed-os\features\nanostack\sal-stack-nanostack\source\Security\kmp\kmp_addr.h \
   mbed-os\features\nanostack\sal-stack-nanostack\source\Security\kmp\kmp_api.h \
   mbed-os\features\nanostack\sal-stack-nanostack\source\Security\PANA\pana_eap_header.h \
@@ -59,7 +58,7 @@ BUILD\NUCLEO_F446RE\ARMC6\mbed-os\features\nanostack\sal-stack-nanostack\source\
   mbed-os\features\nanostack\sal-stack-nanostack\source\Service_Libs\ieee_802_11\ieee_802_11.h \
   mbed-os\features\nanostack\sal-stack-nanostack\source\Service_Libs\hmac\hmac_sha1.h \
   mbed-os\features\nanostack\sal-stack-nanostack\source\Service_Libs\nist_aes_kw\nist_aes_kw.h \
-  mbed-os\features\mbedtls\inc\mbedtls\sha256.h \
+  mbed-os\features\mbedtls\mbed-crypto\inc\mbedtls\sha256.h \
   mbed-os\features\mbedtls\inc\mbedtls\config.h \
   mbed-os\features\mbedtls\platform\inc\platform_mbed.h \
   mbed-os\features\mbedtls\inc\mbedtls\config-no-entropy.h \

@@ -52,5 +52,4 @@ BUILD\NUCLEO_F446RE\ARMC6\mbed-os\features\nanostack\sal-stack-nanostack\source\
   mbed-os\features\nanostack\sal-stack-nanostack\source\Common_Protocols\ipv6_flow.h \
   mbed-os\features\nanostack\sal-stack-nanostack\source\Common_Protocols\tcp.h \
   mbed-os\features\nanostack\sal-stack-nanostack\source\Common_Protocols\udp.h \
-  mbed-os\features\nanostack\sal-stack-nanostack\source\6LoWPAN\Bootstraps\protocol_6lowpan.h \
   mbed-os\features\frameworks\nanostack-libservice\mbed-client-libservice\common_functions.h

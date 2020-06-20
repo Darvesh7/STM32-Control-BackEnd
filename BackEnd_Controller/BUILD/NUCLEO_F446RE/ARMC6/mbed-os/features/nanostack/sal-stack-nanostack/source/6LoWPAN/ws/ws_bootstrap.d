@@ -60,8 +60,6 @@ BUILD\NUCLEO_F446RE\ARMC6\mbed-os\features\nanostack\sal-stack-nanostack\source\
   mbed-os\features\nanostack\sal-stack-nanostack\nanostack\net_rpl.h \
   mbed-os\features\nanostack\sal-stack-nanostack\source\RPL\rpl_control.h \
   mbed-os\features\nanostack\sal-stack-nanostack\source\RPL\rpl_data.h \
-  mbed-os\features\nanostack\sal-stack-nanostack\source\RPL\rpl_policy.h \
-  mbed-os\features\nanostack\sal-stack-nanostack\source\RPL\rpl_control.h \
   mbed-os\features\nanostack\sal-stack-nanostack\source\Common_Protocols\icmpv6.h \
   mbed-os\features\nanostack\sal-stack-nanostack\source\Common_Protocols\icmpv6_prefix.h \
   mbed-os\features\nanostack\sal-stack-nanostack\source\Common_Protocols\icmpv6_radv.h \
@@ -82,7 +80,6 @@ BUILD\NUCLEO_F446RE\ARMC6\mbed-os\features\nanostack\sal-stack-nanostack\source\
   mbed-os\features\nanostack\sal-stack-nanostack\source\6LoWPAN\ws\ws_llc.h \
   mbed-os\features\nanostack\sal-stack-nanostack\source\6LoWPAN\ws\ws_ie_lib.h \
   mbed-os\features\nanostack\sal-stack-nanostack\source\6LoWPAN\ws\ws_stats.h \
-  mbed-os\features\nanostack\sal-stack-nanostack\source\6LoWPAN\ws\ws_cfg_settings.h \
   mbed-os\features\nanostack\sal-stack-nanostack\source\6LoWPAN\lowpan_adaptation_interface.h \
   mbed-os\features\nanostack\sal-stack-nanostack\source\Service_Libs\etx\etx.h \
   mbed-os\features\nanostack\sal-stack-nanostack\source\Service_Libs\nd_proxy\nd_proxy.h \

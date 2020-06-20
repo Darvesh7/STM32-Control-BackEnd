@@ -50,7 +50,6 @@ BUILD\NUCLEO_F446RE\ARMC6\mbed-os\features\nanostack\sal-stack-nanostack\source\
   mbed-os\features\nanostack\sal-stack-nanostack\nanostack\socket_api.h \
   mbed-os\features\nanostack\sal-stack-nanostack\nanostack\ns_address.h \
   mbed-os\features\nanostack\sal-stack-nanostack\source\6LoWPAN\ws\ws_config.h \
-  mbed-os\features\nanostack\sal-stack-nanostack\source\Security\protocols\sec_prot_cfg.h \
   mbed-os\features\nanostack\sal-stack-nanostack\source\Security\kmp\kmp_addr.h \
   mbed-os\features\nanostack\sal-stack-nanostack\source\Security\kmp\kmp_api.h \
   mbed-os\features\nanostack\sal-stack-nanostack\source\Security\kmp\kmp_socket_if.h \

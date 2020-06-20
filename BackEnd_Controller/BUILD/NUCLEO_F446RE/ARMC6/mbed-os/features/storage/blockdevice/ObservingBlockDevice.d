@@ -12,15 +12,8 @@ BUILD\NUCLEO_F446RE\ARMC6\mbed-os\features\storage\blockdevice\ObservingBlockDev
   mbed-os\rtos\mbed_rtos_storage.h \
   mbed-os\rtos\source\TARGET_CORTEX\mbed_rtx_storage.h \
   mbed-os\rtos\source\TARGET_CORTEX\mbed_rtx_conf.h \
-  mbed-os\targets\TARGET_STM\mbed_rtx.h mbed-os\rtos\Kernel.h \
+  mbed-os\targets\TARGET_STM\mbed_rtx.h mbed-os\platform\ScopedLock.h \
   mbed-os\platform\mbed_toolchain.h mbed-os\platform\mbed_preprocessor.h \
-  mbed-os\platform\ScopedLock.h mbed-os\platform\Callback.h \
-  mbed-os\platform\cxxsupport\mstd_cstddef \
-  mbed-os\platform\cxxsupport\mstd_new mbed-os\platform\mbed_assert.h \
-  mbed-os\platform\cxxsupport\mstd_type_traits \
-  mbed-os\platform\cxxsupport\mstd_functional \
-  mbed-os\platform\cxxsupport\mstd_memory \
-  mbed-os\platform\cxxsupport\mstd_utility \
-  mbed-os\platform\cxxsupport\mstd_iterator \
+  mbed-os\platform\Callback.h mbed-os\platform\mbed_assert.h \
   mbed-os\features\storage\blockdevice\ReadOnlyBlockDevice.h \
   mbed-os\platform\PlatformMutex.h

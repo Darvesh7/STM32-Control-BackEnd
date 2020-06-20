@@ -54,7 +54,6 @@ BUILD\NUCLEO_F446RE\ARMC6\mbed-os\features\nanostack\sal-stack-nanostack\source\
   mbed-os\features\nanostack\sal-stack-nanostack\source\6LoWPAN\ws\ws_neighbor_class.h \
   mbed-os\features\nanostack\sal-stack-nanostack\nanostack\fhss_ws_extension.h \
   mbed-os\features\nanostack\sal-stack-nanostack\source\6LoWPAN\ws\ws_bootstrap.h \
-  mbed-os\features\nanostack\sal-stack-nanostack\source\6LoWPAN\ws\ws_cfg_settings.h \
   mbed-os\features\nanostack\sal-stack-nanostack\source\RPL\rpl_control.h \
   mbed-os\features\nanostack\sal-stack-nanostack\source\RPL\rpl_data.h \
   mbed-os\features\nanostack\sal-stack-nanostack\source\Common_Protocols\icmpv6.h \
@@ -68,5 +67,4 @@ BUILD\NUCLEO_F446RE\ARMC6\mbed-os\features\nanostack\sal-stack-nanostack\source\
   mbed-os\features\nanostack\sal-stack-nanostack\source\DHCPv6_Server\DHCPv6_server_service.h \
   mbed-os\features\nanostack\sal-stack-nanostack\source\libDHCPv6\libDHCPv6.h \
   mbed-os\features\nanostack\sal-stack-nanostack\source\libDHCPv6\libDHCPv6_server.h \
-  mbed-os\features\nanostack\sal-stack-nanostack\source\DHCPv6_client\dhcpv6_client_api.h \
   mbed-os\features\nanostack\sal-stack-nanostack\nanostack\ws_bbr_api.h

@@ -74,7 +74,7 @@ BUILD\NUCLEO_F446RE\ARMC6\mbed-os\features\nanostack\sal-stack-nanostack\source\
   mbed-os\features\nanostack\sal-stack-nanostack\source\Security\PANA\pana.h \
   mbed-os\features\nanostack\sal-stack-nanostack\source\Security\Common\sec_lib_definitions.h \
   mbed-os\features\nanostack\sal-stack-nanostack\nanostack\ns_sha256.h \
-  mbed-os\features\mbedtls\inc\mbedtls\sha256.h \
+  mbed-os\features\mbedtls\mbed-crypto\inc\mbedtls\sha256.h \
   mbed-os\features\mbedtls\inc\mbedtls\config.h \
   mbed-os\features\mbedtls\platform\inc\platform_mbed.h \
   mbed-os\features\mbedtls\inc\mbedtls\config-no-entropy.h \

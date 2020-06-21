@@ -2,7 +2,7 @@
 #include "motor.h"
 #include "QEI.h"
 
-
+extern class QEI* encoder;
 
 
 Motor::Motor (PinName INA, 
@@ -158,14 +158,14 @@ void Motor::setMotorSpeedBrakeBackward(void)
 
 void Motor::getRPM(void)
 {
-    _RPMcount = _QEI_Handle->getRevolutions();  
+    _RPMcount = encoder->getRevolutions();  
 
    
 }
 
 void Motor::getPulses(void)
 {
-    _Pulses = _QEI_Handle->getPulses();
+    _Pulses = encoder->getPulses();
 
 }
 
@@ -177,7 +177,7 @@ void Motor::getCummulativePulses(void)
 
 void Motor::resetEncoder(void)
 {
-    _QEI_Handle->reset();
+    encoder->reset();
 
 }
 

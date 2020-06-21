@@ -20,7 +20,7 @@ class Motor
     PinName PWM,
     PinName SEL0, 
     PinName CS,
-    QEI* QEI_Handle);
+    QEI * QEI_Handle);
 
     void init(void);
 

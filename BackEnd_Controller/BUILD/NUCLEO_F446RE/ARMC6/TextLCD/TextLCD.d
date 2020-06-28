@@ -1,4 +1,4 @@
-BUILD\NUCLEO_F446RE\ARMC6\main.o: main.cpp \
+BUILD\NUCLEO_F446RE\ARMC6\TextLCD\TextLCD.o: TextLCD\TextLCD.cpp \
   BUILD\NUCLEO_F446RE\ARMC6\mbed_config.h mbed-os\mbed.h \
   mbed-os\platform\mbed_version.h mbed-os\rtos\rtos.h \
   mbed-os\rtos\mbed_rtos_storage.h \
@@ -238,4 +238,5 @@ BUILD\NUCLEO_F446RE\ARMC6\main.o: main.cpp \
   mbed-os\platform\ScopedRamExecutionLock.h \
   mbed-os\platform\mbed_stats.h mbed-os\platform\Callback.h \
   mbed-os\platform\FunctionPointer.h mbed-os\platform\ScopedLock.h \
-  motor.h QEI\QEI.h eeprom\eeprom.h PinDetect\PinDetect.h loos_states.h
+  TextLCD\TextLCD.h TextLCD\TextLCD_Config.h TextLCD\TextLCD_UDC.h \
+  TextLCD\TextLCD_UDC.inc TextLCD\TextLCD_UTF8.inc

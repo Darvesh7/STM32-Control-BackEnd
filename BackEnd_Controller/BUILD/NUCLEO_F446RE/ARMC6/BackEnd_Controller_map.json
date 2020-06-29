@@ -2,10 +2,10 @@
     {
         "module": "QEI\\QEI.o",
         "size": {
-            ".text": 600,
+            ".text": 618,
             ".data": 0,
             ".bss": 0,
-            ".text-delta": 0,
+            ".text-delta": 18,
             ".data-delta": 0,
             ".bss-delta": 0
         }
@@ -16,7 +16,7 @@
             ".text": 11209,
             ".data": 16,
             ".bss": 348,
-            ".text-delta": 0,
+            ".text-delta": 24,
             ".data-delta": 0,
             ".bss-delta": 0
         }
@@ -68,10 +68,10 @@
     {
         "module": "eeprom\\eeprom.o",
         "size": {
-            ".text": 842,
+            ".text": 2756,
             ".data": 0,
             ".bss": 72,
-            ".text-delta": 0,
+            ".text-delta": 1338,
             ".data-delta": 0,
             ".bss-delta": 0
         }
@@ -79,21 +79,21 @@
     {
         "module": "main.o",
         "size": {
-            ".text": 2786,
-            ".data": 1,
-            ".bss": 1057,
-            ".text-delta": 0,
-            ".data-delta": 0,
-            ".bss-delta": 0
+            ".text": 3366,
+            ".data": 9,
+            ".bss": 1131,
+            ".text-delta": 496,
+            ".data-delta": 8,
+            ".bss-delta": 74
         }
     },
     {
         "module": "mbed-os\\components",
         "size": {
-            ".text": 281,
+            ".text": 239,
             ".data": 0,
             ".bss": 0,
-            ".text-delta": 0,
+            ".text-delta": -42,
             ".data-delta": 0,
             ".bss-delta": 0
         }
@@ -101,10 +101,10 @@
     {
         "module": "mbed-os\\drivers",
         "size": {
-            ".text": 2269,
+            ".text": 2551,
             ".data": 0,
             ".bss": 84,
-            ".text-delta": 0,
+            ".text-delta": 74,
             ".data-delta": 0,
             ".bss-delta": 0
         }
@@ -145,9 +145,9 @@
     {
         "module": "mbed-os\\targets",
         "size": {
-            ".text": 15628,
+            ".text": 20080,
             ".data": 4,
-            ".bss": 1136,
+            ".bss": 1156,
             ".text-delta": 0,
             ".data-delta": 0,
             ".bss-delta": 0
@@ -156,7 +156,7 @@
     {
         "module": "motor.o",
         "size": {
-            ".text": 776,
+            ".text": 656,
             ".data": 0,
             ".bss": 0,
             ".text-delta": 0,
@@ -166,10 +166,10 @@
     },
     {
         "summary": {
-            "static_ram": 11110,
-            "static_ram_delta": 0,
-            "total_flash": 57248,
-            "total_flash_delta": 0
+            "static_ram": 11212,
+            "static_ram_delta": 82,
+            "total_flash": 64340,
+            "total_flash_delta": 1916
         }
     }
 ]

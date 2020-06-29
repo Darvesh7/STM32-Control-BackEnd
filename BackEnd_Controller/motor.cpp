@@ -86,7 +86,7 @@ void Motor::setMotorSpeed(void)
      for(float pwm_i = 0.0 ; pwm_i <= 1.0; pwm_i += 0.01)
     {
         _motorPWM->write(pwm_i);
-        printf("pwm increment %.2f\n",pwm_i);
+        //printf("pwm increment %.2f\n",pwm_i);
        
     }
 }
@@ -108,7 +108,7 @@ void Motor::brake(void)
         for(float pwm_d = 1.0 ; pwm_d >= 0.0; pwm_d-= 0.02)
         {
         _motorPWM->write(pwm_d);
-        printf("pwm decrement %.2f\n",pwm_d);
+        //printf("pwm decrement %.2f\n",pwm_d);
         }
     }
 
@@ -122,7 +122,7 @@ void Motor::brake(void)
         for(float pwm_d = 1.0 ; pwm_d >= 0.0; pwm_d-= 0.02)
         {
         _motorPWM->write(pwm_d);
-        printf("pwm decrement %.2f\n",pwm_d);
+        //printf("pwm decrement %.2f\n",pwm_d);
         }
     
     }
